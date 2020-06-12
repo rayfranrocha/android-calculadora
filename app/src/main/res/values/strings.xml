@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="somar">Somar</string>
+    <string name="diminuir">Diminuir</string>
+    <string name="dividir">Dividir</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="igual">=</string>
+    <string name="title_activity_calculadora">Calculadora</string>
+    <string name="title_activity_imc">IMCActivity</string>
+</resources>
