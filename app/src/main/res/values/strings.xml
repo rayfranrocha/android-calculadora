@@ -9,4 +9,5 @@
     <string name="igual">=</string>
     <string name="title_activity_calculadora">Calculadora</string>
     <string name="title_activity_imc">IMCActivity</string>
+    <string name="altura_m">Altura (m)</string>
 </resources>

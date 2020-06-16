@@ -82,4 +82,5 @@ class IMCActivity : AppCompatActivity() {
          ImcResultado(40.0, 100.0, "Obesidade Grau III", "red")
     )
 
+
 }

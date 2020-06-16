@@ -8,4 +8,48 @@
     tools:context=".CalculadoraActivity"
     tools:showIn="@layout/activity_calculadora">
 
+
+    <TextView
+        android:id="@+id/tvTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressione o microfone pra falar"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"></TextView>
+
+    <ImageButton
+        android:id="@+id/btnGravar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_mic_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTexto"></ImageButton>
+
+    <TextView
+        android:id="@+id/tvEscutando"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estou escutanto você falar.."
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnGravar"></TextView>
+
+    <EditText
+        android:id="@+id/etFrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/tvEscutando"
+        tools:layout_editor_absoluteX="45dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
